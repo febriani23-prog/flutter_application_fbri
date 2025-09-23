@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class ProfilPage extends StatelessWidget {
-  const ProfilPage({super.key});
+class MyWidget extends StatelessWidget {
+  const MyWidget({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -9,23 +9,25 @@ class ProfilPage extends StatelessWidget {
       appBar: AppBar(
         title: Text(
           'layout febriani ',
-          style: TextStyle(color: Colors.blueAccent),
+          style: TextStyle(color: Colors.blue),
         ),
-        backgroundColor: Colors.cyanAccent,
+        backgroundColor: Colors.amber,
       ),
       body: Column(
         children: [
           SizedBox(height: 10),
           Image.asset(
-            'images/potofebri.jpeg',
-            width: 100,
+            'images/smkypc.png',
+            width: 200,
+          ),
+          SizedBox(height: 5),
+          Text(
+            'SMK YPC Tasikmalaya',
+            style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
           ),
           SizedBox(height: 10),
-          Text('Febriani sepira',
-              style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold)),
-          SizedBox(height: 10),
           Text(
-            'Siswa Smk YPC',
+            'Pengembangan Perangkat Lunak Dan Gim',
             style: TextStyle(fontSize: 18),
           ),
           SizedBox(height: 10),
@@ -42,4 +44,3 @@ class ProfilPage extends StatelessWidget {
     );
   }
 }
-

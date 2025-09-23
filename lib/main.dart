@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_fbri/tugas.dart';
+import 'tugas_mandiri.dart';
 
 void main() {
   runApp(const MainApp());
@@ -10,8 +10,6 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: MyApp (),
-    );
+    return const MaterialApp(home: LayoutListItem());
   }
 }

@@ -18,6 +18,8 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   assets:
-   - images/potofebri.jpeg
+   - images/bungai4.jpg
+   - images/bunga2.png
+   - images/bunga3.jpg
 
 
