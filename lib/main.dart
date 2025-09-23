@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'tugas_mandiri.dart';
+import 'package:flutter_application_fbri/profil_page.dart';
+
+
 
 void main() {
   runApp(const MainApp());
@@ -10,6 +12,7 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(home: LayoutListItem());
+    return const MaterialApp(
+      home: ProfilPage());
   }
 }

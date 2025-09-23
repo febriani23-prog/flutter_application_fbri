@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class MyWidget extends StatelessWidget {
-  const MyWidget({super.key});
+class ProfilPage extends StatelessWidget {
+  const ProfilPage({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -17,7 +17,7 @@ class MyWidget extends StatelessWidget {
         children: [
           SizedBox(height: 10),
           Image.asset(
-            'images/smkypc.png',
+            'images/potofebri.jpeg',
             width: 200,
           ),
           SizedBox(height: 5),
