@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_fbri/profil_page.dart';
+import 'package:flutter_application_fbri/tugas_long_list.dart';
+
 
 
 
@@ -13,6 +14,6 @@ class MainApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: ProfilPage());
+      home: HomeScreen());
   }
 }
